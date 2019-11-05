@@ -1,0 +1,28 @@
+.table-grid{
+   
+   border-collapse: collapse;
+}
+
+
+.table-grid td{
+    width: 40px;
+  height:40px;
+  border:1px solid #000;
+}
+
+@media(max-width:375px){
+.table-grid{
+  width: 100%;
+}  
+.table-grid td{
+    width: 30px;
+  height:30px;
+  border:1px solid #000;
+}
+
+}
+
+.table-grid td.empty{
+  background: #000;
+ 
+}
