@@ -105,7 +105,7 @@ export class AppComponent implements OnInit {
     const direction = this.directions[_.random(0, this.directions.length - 1)];
     let fits = false;
     let count = 0;
-   do {
+  //  do {
     //   console.log("count", count);
     //   const coordinates = this.getCoordinates();
     //   switch (direction) {
@@ -117,10 +117,10 @@ export class AppComponent implements OnInit {
     //       break;
     //     case "l":
     //       break;
-    //   }
-      count++;
-      fits = fits || (count < 10);
-    } while (fits);
+    // //   }
+    //   count++;
+    //   fits = fits || (count < 10);
+    // } while (fits);
     console.log(this.trs)
   }
 
